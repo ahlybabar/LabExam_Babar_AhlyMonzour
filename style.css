@@ -1,4 +1,3 @@
-/* style.css */
 body {
   font-family: Arial, sans-serif;
   background-color: #f1f1f1;
@@ -6,6 +5,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 .login-container {
   background: white;
@@ -16,9 +16,16 @@ body {
 input {
   margin-bottom: 10px;
   width: 100%;
-  padding: 8px;
+  padding: 10px;
 }
 button {
   width: 100%;
   padding: 10px;
+  background-color: #4c4c4c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #333;
 }
